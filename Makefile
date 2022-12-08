@@ -1,0 +1,6 @@
+build:
+	go build -o service .
+test:
+	go test ./...
+vet:
+	go vet ./...
